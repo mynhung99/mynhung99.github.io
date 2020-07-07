@@ -1,0 +1,139 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 13px;
+	width: 1000px;
+	margin: 0px auto;
+	background: #FFFDFD;
+}
+.menu{
+	background: #E59394;
+	height: 100px;
+}
+.menu ul{
+	margin: 0px;
+	padding: 0px;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+	
+}
+.menu ul li a{
+	text-decoration: none;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	padding: 25px 10px 25px 10px;
+	transition-duration: 3s;
+}
+.banner{
+	height: auto;
+	width: 1000px;
+}
+.banner img{
+	width: 1000px;
+}
+.main .left{
+	width: 1000px;
+	background: #E59394;
+	float: left;
+	min-height: 200px;
+}
+/*
+.main .right{
+	width: 200px;
+	background: #1128B4;
+	float: left;
+	min-height: 400px;
+*/
+/*}*/
+.menu img{
+	margin-top: 20px;
+	width: 100px;
+	
+}
+.main .left ul li{
+	list-style: none;
+	color: aliceblue;
+}
+.main .left ul li img{
+	float: left;
+	margin-right: 10px;
+}
+.main img{
+	height: 100px;
+	width: 200px
+}
+.main .left ul li {
+	list-style: none;
+	clear: left;
+	border-bottom: 1px solid;
+	
+}
+.main .left ul{
+	margin: 0px;
+	padding: 0px;
+}
+.backround{
+	width: 1000px;
+	height: auto;
+	background: #DF6E70;
+	margin-top: 10px;
+	
+}
+.backround h1{
+	text-align: center;
+	margin-right: 30px;
+	color:#30EBFB;
+	margin-top: 50px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	text-decoration-line: underline;
+	text-decoration-style:dotted;
+}
+.backround h1{
+	text-align: center;
+	margin-right: 30px;
+	color:#30EBFB;
+	margin-top: 50px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	text-decoration-line: underline;
+	text-decoration-style:dotted;
+}
+.backround h5{
+	float: left;
+	margin-left: 10px;
+	margin-top: 20px;
+	padding-right: 100px;
+	color: aliceblue;
+	text-align: center;
+	margin-right: 3px;
+}
+.backround img{
+	margin-left: 97px;
+}
+.about{
+	width: 1000px;
+	height: 200px;
+	background: #E59394;
+}
+.about img{
+	height: 200px;
+	float: right;
+	width: 200px;
+}
+.about h3{
+	margin-top: 30px;
+	color: aliceblue;
+}
+.about p{
+	color: aliceblue;
+}
+
+
+
+
