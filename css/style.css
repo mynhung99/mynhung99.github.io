@@ -81,7 +81,7 @@ body{
 }
 .backround{
 	width: 1000px;
-	height: auto;
+	height: 450px;
 	background: #DF6E70;
 	margin-top: 10px;
 	
@@ -133,7 +133,9 @@ body{
 .about p{
 	color: aliceblue;
 }
-
+.backround h5{
+	margin-left: 100px;
+}
 
 
 
