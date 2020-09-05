@@ -94,6 +94,7 @@ nav ul li:last-child{
 	background-position: center;
  	background-repeat: no-repeat;
 	background-size: cover;
+	position: absolute;
 	
 }
 
@@ -334,5 +335,5 @@ copy_right{
 	background: #000000;
 	position: absolute;
 	z-index: 99999999;
-	top: 3500px;
+	top: 3000px;
 }
