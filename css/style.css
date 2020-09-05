@@ -132,7 +132,7 @@ nav ul li:last-child{
 /*	margin-top: 500px;*/
 	z-index: 99999;
 	position: absolute;
-	top:1000px;
+	top:1550px;
 	
 	
 		}
@@ -337,4 +337,10 @@ copy_right{
 	position: absolute;
 	z-index: 99999999;
 	top: 3000px;
+}
+.box1{
+	width: 70%;
+	height: 100vh;
+/*	background: #F5070B;*/
+	margin-left: 300px;
 }
