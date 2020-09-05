@@ -129,15 +129,16 @@ nav ul li:last-child{
 			margin:  auto;
 			padding: 7%;
 			box-sizing: border-box;
-	margin-top: 500px;
+/*	margin-top: 500px;*/
 	z-index: 99999;
 	position: absolute;
+	top:1570px;
 	
 	
 		}
 .box img{
-			height: 200px;
-	width: 200px;
+			height: 400px;
+	width: 400px;
 			transition: all 1s;
 	
 		}
