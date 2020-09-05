@@ -132,12 +132,12 @@ nav ul li:last-child{
 /*	margin-top: 500px;*/
 	z-index: 99999;
 	position: absolute;
-	top:2000px;
+	top:1800px;
 	
 	
 		}
 .box img{
-			height: 400px;
+			height: 500px;
 	width: 400px;
 			transition: all 1s;
 	
