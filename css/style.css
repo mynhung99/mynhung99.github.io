@@ -104,7 +104,7 @@ nav ul li:last-child{
 /*	opacity: 0.5;*/
 	top:200px;
 	position: relative;
-	left: 950px;
+	left: 800px;
 	
 }
 .container:hover{
@@ -132,11 +132,13 @@ nav ul li:last-child{
 	z-index: 99999;
 	position: absolute;
 	
+	
 		}
 .box img{
 			height: 300px;
-	width: 500px;
+	width: 400px;
 			transition: all 1s;
+	
 		}
 .box img:hover{
 			background: blue;
