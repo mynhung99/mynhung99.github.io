@@ -3,139 +3,334 @@
 	margin: 0;
 	padding: 0;
 }
-body{
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	font-size: 13px;
-	width: 1000px;
-	margin: 0px auto;
-	background: #FFFDFD;
+.wrapper{
+	width: 100%;
+	height: 100vh;
+	background: rgb(160,134,255);
+	position: relative;
 }
-.menu{
-	background: #E59394;
+header{
+	width: 100%;
 	height: 100px;
+	background: #535353;
+	padding-left: 50px;
+	padding-right: 50px;
+	box-sizing: border-box;
+	position: fixed;
 }
-.menu ul{
-	margin: 0px;
-	padding: 0px;
+header:hover{
+	background: rgba(231,201,201,0.5);
 }
-.menu ul li{
-	list-style: none;
+.logo h1{
+	font-family: 'Quicksand', sans-serif;
+	color: aliceblue;
+}
+.logo{
+	width: 10%;
+	height: 80px;
 	float: left;
-	
+
+	line-height: 80px;
 }
-.menu ul li a{
+.logo a{
 	text-decoration: none;
-	display: block;
-	height: 40px;
-	line-height: 40px;
-	padding: 25px 10px 25px 10px;
-	transition-duration: 3s;
+	font-size: 44px;
+	color: white;
+
 }
-.banner{
-	height: auto;
-	width: 1000px;
-}
-.banner img{
-	width: 1000px;
-}
-.main .left{
-	width: 1000px;
-	background: #E59394;
-	float: left;
-	min-height: 200px;
-}
-/*
-.main .right{
-	width: 200px;
-	background: #1128B4;
-	float: left;
-	min-height: 400px;
-*/
-/*}*/
-.menu img{
-	margin-top: 20px;
-	width: 100px;
-	
-}
-.main .left ul li{
-	list-style: none;
-	color: aliceblue;
-}
-.main .left ul li img{
-	float: left;
-	margin-right: 10px;
-}
-.main img{
-	height: 100px;
-	width: 200px
-}
-.main .left ul li {
-	list-style: none;
-	clear: left;
-	border-bottom: 1px solid;
-	
-}
-.main .left ul{
-	margin: 0px;
-	padding: 0px;
-}
-.backround{
-	width: 1000px;
-	height: 450px;
-	background: #DF6E70;
-	margin-top: 10px;
-	
-}
-.backround h1{
-	text-align: center;
-	margin-right: 30px;
-	color:#30EBFB;
-	margin-top: 50px;
-	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
-	text-decoration-line: underline;
-	text-decoration-style:dotted;
-}
-.backround h1{
-	text-align: center;
-	margin-right: 30px;
-	color:#30EBFB;
-	margin-top: 50px;
-	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
-	text-decoration-line: underline;
-	text-decoration-style:dotted;
-}
-.backround h5{
-	float: left;
-	margin-left: 10px;
-	margin-top: 20px;
-	padding-right: 100px;
-	color: aliceblue;
-	text-align: center;
-	margin-right: 3px;
-}
-.backround img{
-	margin-left: 97px;
-}
-.about{
-	width: 1000px;
-	height: 200px;
-	background: #E59394;
-}
-.about img{
-	height: 200px;
+nav{
+	width: 90%;
+	height: 80px;
+
 	float: right;
+}
+nav ul{
+	list-style: none;
+	text-align: right;
+	margin-top: 25px;
+}
+nav ul li{
+	display: inline-block;
+	width: 85px;
+	height: 30px; 
+/*	background: red;*/
+	text-align: center;
+	line-height: 30px;
+	margin-left: 40px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: 'Quicksand', sans-serif;
+}
+nav ul li:last-child{
+	width: 100px;
+	height: 35px;
+	
+}
+.content{
+	width: 100%;
+	height: 100%;
+	
+}
+.banner1{
+	width: 100%;
+	height: 100vh;
+	background:url("../hinh anh/anlam-nvb-dalat-tour.jpg");
+	background-attachment: fixed;
+	background-position: center;
+ 	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 30%;
+	box-sizing: border-box;
+	
+}
+.banner2{
+	width: 100%;
+	height: 100vh;
+	background: url("../hinh anh/photo-1505849871170-7f94cf84f4d2.jpg");
+	background-attachment: fixed;
+	background-position: center;
+ 	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+.container{
+	width: 500px;
+	height: 200px;
+	margin-left: 70px;
+/*	opacity: 0.5;*/
+	top:200px;
+	position: relative;
+	left: 950px;
+	
+}
+.container:hover{
+	background: rgba(67,67,67,0.5);
+}
+.container h1{
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	color: #D1711D;
+	
+}
+.container h3{
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	color: aliceblue;
+}
+.box{
+			width: 100%;
+			height:580px;
+			background: #8B8B7A;
+			margin: 0 auto;
+			padding: 7%;
+			box-sizing: border-box;
+	margin-top: 800px;
+	z-index: 99999;
+	position: absolute;
+	
+		}
+.box img{
+			height: 300px;
+	width: 500px;
+			transition: all 1s;
+		}
+.box img:hover{
+			background: blue;
+			transform: scale(1.2);
+			box-shadow: 0px 0px 150px #000000;
+			transition: all .5s ease-in;
+		}
+.menu{
+	width: 20%;
+	height: 80px;
+	float: right;
+	text-align: right;
+	color: white;
+	
+	
+	
+}
+.menu a{
+	color: white;
+	text-decoration: none;
+	font-size: 22px;
+	
+}
+.product{
+	
+width: 100%;
+			height:580px;
+			background:#555555;
+			margin: 0 auto;
+			padding: 7%;
+			box-sizing: border-box;
+	margin-top: 1300px;
+	z-index: 99999;
+	position:relative;
+}
+.product .frame{
+	width: 100%;
+	
+	
+	
+}
+.product .frame .p1{
+width:27% ;text-align:center;
+padding: 2%; margin-right: 3%;
+background-color: #FFFFFF;
+float: left;
+	
+
+}
+.product .frame h4{
+text-align:center;
+color: #9c88a3;
+}
+.product .frame .p2{
+width: 27%;text-align:center;
+padding: 2%;margin-right: 3%;
+background-color: #FFFFFF;
+float: left;
+	
+	
+}
+.product .frame .p3{
+	width: 27%;text-align:center;
+padding: 2%;
+background-color: #FFFFFF;
+float: left;
+}
+.product .frame img{
+	width: 100%;
+}
+p.subcontent{
+line-height: 1.5; color:#96949F;
+}
+nav ul button{
+	width: 100%;
+	height: 35px;
+/*	border-radius: 10px;*/
+	border: none;
+	background: #DBDBDB;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	/*	box-shadow: 0px 0px 23px 1px rgba(241,195,66,1);*/}
+
+.formbox h1{
+color: #8C0209;
+}
+.byline {
+border-bottom: 1px #BBBBBB dashed; margin: 10px 20px 20px 20px;
+}
+.formbox {
+padding:20px; border: 1px solid #8C0209; width:470px; margin: 0px auto;
+background: #8FBC8F;
+}
+.formbox table{
+width: 100%;
+}
+.formbox h1{
+padding-top: 20px; font-weight: bold;
+}
+
+.khung{
+	width: 100%;
+	height: 100vh;
+	background: url("../hinh anh/hinh-anh-doan-van-mau-noi-ve-uoc-mo-bang-tieng-trung-hay-1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	margin-top: 0px;
+}
+.khungchuamaybay{
+	width: 100%;
+	height: 500px;
+/*	background: #F40F13;*/
+}
+.gioithieu{
+	width: 800px;
+	height: 500px;
+	background: rgba(11,11,11,0.5);
+	margin: 0 auto;
+	bottom: 300px;
+	position: relative;
+	border-style: double;
+}
+.gioithieu h2{
+	text-align: center;
+	color: aliceblue;
+	font-family: 'Quicksand', sans-serif;
+	margin-top: 230px;
+	font-size: 60px;
+}
+.rotate-text {
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    letter-spacing: 3px;
+    color: #072F14 !important;
+    font-weight: 400;
+    font-size: 15px;
+    writing-mode: vertical-rl;
+    transform: translateY(-50%) rotate(-180deg);
+    z-index: 5;
+    text-transform: uppercase;
+	text-decoration: none;
+}
+.rotate-text:before {
+    padding-bottom: 7px;
+    content: '\2190';
+    display: inline-block;
+}
+@keyframes cloud{
+	0%{
+		transform: translate(1800px)
+	}
+	100%{
+		transform: translate(-1000px)
+	}
+}
+.cloud img{
+	position: absolute;
+	top:60%;
+	left: 5%;
 	width: 200px;
-}
-.about h3{
-	margin-top: 30px;
-	color: aliceblue;
-}
-.about p{
-	color: aliceblue;
-}
-.backround h5{
-	margin-left: 100px;
+	animation: cloud 8s infinite linear;
+	
 }
 
-
-
+#footer{
+	height:100px;
+	background-color:#000
+}
+copy_right{
+	padding: 30px 20px;
+	color:#FFF;
+	float:left;
+}
+.copy_right a{
+	color:#0FC;
+	
+}
+#mangxh{
+	float:right;
+	padding: 20px 20px;
+	bottom: 10px;
+}
+#mangxh img{	
+	width: 50px;
+	height:50px;
+}
+.footer{
+	width: 100%;
+	height: 100px;
+	background: #000000;
+	position: absolute;
+	z-index: 99999999;
+	top: 3500px;
+}
