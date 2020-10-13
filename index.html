@@ -1,129 +1,532 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<meta charset="utf-8">
-<title>Untitled Document</title>
-<link rel="stylesheet" href="css/style.css"/>
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Modern Business - Start Bootstrap Template</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/modern-business.css" rel="stylesheet">
+<!--	link bootstrap-->
+	<link rel="stylesheet" href="css/style.css">
+<!--	link social-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--	link css-->
+	<link rel="stylesheet" href="css/Untitled-1.css">
+
 </head>
 
 <body>
-<div class="wrapper">
-<header>
-  <div class="logo">
-    <h1>Nhung</h1>
-  </div>
-  <nav>
-    <ul>
-      <li><a href="#">
-        <button class="hvr-sweep-to-top">Home &#8595;</button>
-        </a></li>
-      <li><a href="#">About me</a></li>
-      <li><a href="#">Hình ảnh</a></li>
-      <li><a href="#">Địa điểm</a></li>
-      <nav class="menu"> <a href="#">&#9776;</a> </nav>
-    </ul>
-  </nav>
-</header>
-<div class="content">
-  <div class="banner1">
-    <div class="gioithieu">
-      <h2>Welcome to DALAT</h2>
-    </div>
-    <a class="rotate-text" href="#about">Scroll down</a> </div>
-  <section class ="banner2" id="about">
+
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <h1>About me</h1>
-      <h3>Xin chào cả nhà, mình là Nhung như các bạn khác mình thích đi du lịch khám phá và trải nghiêm.Và đây là chuyến trải nghiệm Đà Lạt của mình hihi. Mong các bạn sẽ thích </h3>
+      <a class="navbar-brand" href="index.html">Nhà của Bánh</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#ten02">Trang chủ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ten01">Dịch vụ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ten03">Liên hệ</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+              Sản phẩm
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+              <a class="dropdown-item" href="portfolio-1-col.html">Bánh nướng</a>
+              <a class="dropdown-item" href="portfolio-2-col.html">Bánh kem</a>
+              <a class="dropdown-item" href="portfolio-3-col.html">Bánh kem rau câu</a>
+              <a class="dropdown-item" href="portfolio-4-col.html">Bánh cookies</a>
+              
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Hình ảnh
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+              <a class="dropdown-item" href="blog-home-1.html">Album bánh</a>
+              <a class="dropdown-item" href="blog-home-2.html">Album sự kiện</a>
+              <a class="dropdown-item" href="blog-post.html">Đánh giá</a>
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
-  </section>
-</div>
-<div class="box"> 
-	<div class="box1">
-		<img src="hinh anh/truong-cao-dang-su-pham-da-lat-tam-ngung-don-khach-tham-quan.jpg" alt=""> <img src="hinh anh/Langbiang-dalat-vietnam_519197881.jpg" alt="">  </div>
+  </nav>
+
+  <header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"  >
+      <ol class="carousel-indicators"  id="ten02" >
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active" style="background-image: url('image/3883858.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Chương trình khuyến mãi đặc biệt</h3>
+            <p>Các loại bánh best seller .</p>
+          </div>
+        </div>
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('image/e9cae9fc86bbc67783f4d55a30180950.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Bánh nướng</h3>
+            <p>Với mùi thơm vô cùng thơm ngon.</p>
+          </div>
+        </div>
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('image/banh.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Cookies</h3>
+            <p>Với loại này thì chắc chắn bạn sẽ hài lòng ngay lập tức.</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </header>
+	<!-- Features Section -->
+    <div class="row body">
+      <div class="col-lg-6">
+        <h2>Welcome to Nhà của Bánh</h2>
+        <p>Nhà của bánh là chuỗi cửa hàng với những sản phẩm :</p>
+        <ul>
+          <li>
+            <strong>Các loại bánh thơm ngon</strong>
+          </li>
+          <li>Bánh nướng</li>
+          <li>Bánh kem</li>
+          <li>Bánh cookies</li>
+          <li>Bánh kem rau câu</li>
+        </ul>
+        <p>Với hương vị đặc trưng riêng của cửa hàng, chắc chắn sẽ là một món ăn vô cùng ngon và phù hợp với tất cả mọi người.</p>
+      </div>
+      <div class="col-lg-6">
+        <img class="img-fluid rounded" src="image/thiet-ke-cua-hang-banh-doc-dao.jpg" alt="">
+      </div>
+    </div>
 	
-	</div>
+    <!-- /.row -->
 	
-<div class="product">
-  <div class="frame">
-    <div class="p1"> <img src="hinh anh/12346079_914134168678462_1423272952_n.jpg" alt="">
-      <h4>Chùa Linh Phước</h4>
-      <p class="subcontent">Điều đặc biệt là toàn bộ những họa tiết của ngôi chùa đều được tạo thành từ những sành, sứ và vỏ chai. </p>
+
+    <hr>
+  <!-- Page Content -->
+  <div class="container slider">
+
+    <h1 class="my-4">Welcome to Nhà của Bánh</h1>
+
+    <!-- Marketing Icons Section -->
+    <div class="row">
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+          <h4 class="card-header">Bánh nướng</h4>
+          <div class="card-body">
+            <p class="card-text">n giới thiệu với khách sản phẩm mới, đó là bánh mì nguyên cám thuần túy. Thành phần bao gồm: bột mì nguyên cám, muối, men, nước và maple syrup. Bánh mì này không có sữa và trứng nên phù hợp cho mọi người từ người ăn kiêng, ăn chay, phụ nữ có thai, bệnh nhân tiểu đường, v.v... Và tụi mình hoàn toàn không sử dụng phụ gia và chất bảo quản</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Mua hàng</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+          <h4 class="card-header">Bánh kem</h4>
+          <div class="card-body">
+            <p class="card-text">Hương vị trong từng chiếc bánh là yếu tố không kém phần quan trọng đối với mỗi chiếc bánh kem. Trong đó, có rất nhiều hương vị độc đáo, chúng tôi có thể liệt kê ra những hương vị trọng tâm như sau: Hương socola, đây là hương vị được yêu thích và chọn lựa hàng đầu tại cửa hàng chúng tôi. Socola không quá ngọt nhưng không quá đắng, nó làm vừa lòng vị giác của mỗi con người mà không một lời chê bai. Đối với bánh kem socola chúng tôi rất tinh tế, với mỗi loại, chúng tôi đều trang trí một cách vừa đủ để tạo sự hài hòa và cân đối trong từng chiếc bánh..</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Mua hàng</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+          <h4 class="card-header">Bánh cookies</h4>
+          <div class="card-body">
+            <p class="card-text"> Thưởng thức vài miếng bánh Cookies giòn tan, nhâm nhi một tách trà và cùng thả hồn vào một quyển sách hay những cuộc trò chuyện thân mật sẽ là điều rất tuyệt vời. Vì vậy, những chiếc bánh Cookies xinh xắn với nhiều hương vị khác nhau đã trở nên quen thuộc không chỉ làm say đắm lòng người mà còn có thể trở thành quà tặng cực dễ thương cho những người mà bạn yêu quý. .</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Mua hàng</a>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="p2"> <img src="hinh anh/foody-mobile-2654545845845-jpg-710-636069390129441826.jpg" alt="">
-      <h4>Nhà thờ con gà</h4>
-      <p class="subcontent">Nhà thờ Con gà là một trong những kiến trúc cổ xưa tiêu biểu còn xót lại từ thời Pháp thuộc. Đây là một trong những nhà thờ lớn nhất của Đà Lạt. </p>
+    <!-- /.row -->
+
+    <!-- Portfolio Section -->
+    <h2>Bánh nướng</h2>
+
+    <div class="row">
+      <div class="col-lg-4 col-sm-6 portfolio-item" id="ten01">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="image/3883875.jpg" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Bánh nướng mè đen</a>
+            </h4>
+            <p class="card-text">Với công thức bột mỳ trứng sữa mè đen chắc chắn bánh mỳ mè đen sẽ đem lại cho bạn một ăn vô cùng ngon và hấp dẫn!</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="image/1.jpg" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Bánh nướng</a>
+            </h4>
+            <p class="card-text">Bánh nướng thơm ngon kết hợp nướng ở chế độ vừa phải và thêm bơ tạo nên một món ăn thích hợp với mọi người.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="image/2.jpg" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Bánh nướng xúc xích</a>
+            </h4>
+            <p class="card-text">Đây là món bestsaler của quán bởi vì sự thơm béo mặn ngọt sẽ kết hợp lại với nhau làm bàn không thất vọng!</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="image/3.jpg" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Bánh nướng Socola</a>
+            </h4>
+            <p class="card-text">Socola chip kết hợp với bơ sữa bột mì nướng lên sẽ vô cùng thơm ngon .</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="image/4.jpg" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Bánh nướng bơ</a>
+            </h4>
+            <p class="card-text">Thơm ngon mùi thơm và sữa là những điều miêu nói về món ăn này .</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="image/5.jpg" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Bánh nướng sừng trâu</a>
+            </h4>
+            <p class="card-text">Nếu bạn là một người mê cà phê thì đây là món bạn nên chọn bởi vì thành phần nó là cà phê bột mì và sữa đấy.</p>
+          </div>
+			
+        </div>
+		  
+      </div>
     </div>
-    <div class="p3"> <img src="hinh anh/Không-gian-hoa.jpg" alt="">
-      <h4>Vườn hoa Đà Lạt</h4>
-      <p class="subcontent"> ngạc nhiên đầu tiên đó là cổng vào vườn hoa được thiết kế thành một hình vòng cung đủ màu sắc </p>
+	  
+	  
+    	
+	  
+   <!-- Page Features -->
+    <div class="row text-center">
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="image/unnamed (1).jpg" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Bánh kem dâu</h4>
+            <p class="card-text">Bánh được làm từ dâu bơ trứng sữa thích hợp với mọi bữa tiệc.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Mua hàng!</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="image/unnamed.jpg" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Bánh kem vani</h4>
+            <p class="card-text">Bánh kem vani với mùi sữa đặc trưng sẽ làm bữa tiệc của bạn càng thêm ngon miệng.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Mua hàng!</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="image/unnamed (3).jpg" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Bánh kem socola</h4>
+            <p class="card-text">Đây là loại béo kết hợp vị đắng của socola sẽ tạo nên món bánh tuyệt vời.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Mua hàng!</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="image/unnamed (2).jpg" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Bánh kem socola bạc hà</h4>
+            <p class="card-text">Nếu bạn muốn thử loại đặc biệt mới lạ chắc chắn đây sẽ là lựa chọn tốt nhất .</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Mua hàng!</a>
+          </div>
+        </div>
+		</div>  
+	  </div>
+	  
+	  <!-- Page Features -->
+    <div class="row text-center">
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="image/Banh-quy-chocolate-chip-bang-bot-cacao-nguyen-chat-holaandina.vn-feature-image.png" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Cookies socolachip</h4>
+            <p class="card-text">Với sự kết hợp giữa socola chip với bánh nướng lên sẽ cho bạn món bánh rất ngon.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Mua ngay!</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="image/macha-cookie-a3a5.png" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Cookies trà xanh</h4>
+            <p class="card-text">Vị món bánh này sẽ thơm vị trà xanh và béo của sữa rất hợp với những bữa tiệc.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Mua ngay!</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="image/strawberry-cookies-10.jpg" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Cookies dâu</h4>
+            <p class="card-text">Loại dâu đà lạt thơm ngọt kết hợp với bánh sẽ làm bánh thêm ngon hơn.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Mua ngay!</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="image/4-1506012473005-142-0-1688-3000-crop-1506012529824.jpeg" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Bánh socola mềm</h4>
+            <p class="card-text">Loại bánh này sẽ thích hợp với tất cả mọi người bởi vì sự thơm ngon và ngọt dịu của bánh.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Find Out More!</a>
+          </div>
+        </div>
+		</div>  
+		
+		<section class="gallery" >
+  <div class="container" >
+    <div class="grid">
+      <div class="column-xs-12 column-md-4">
+        <figure class="img-container">
+          <img src="image/mo-cua-hang-banh-ngot-can-bao-nhieu-von-9.jpg" alt="" />
+          <figcaption class="img-content">
+            <h2 class="title">Style</h2>
+            <h3 class="category">Showcase</h3>
+          </figcaption>
+          <span class="img-content-hover">
+            <h2 class="title">Style</h2>
+            <h3 class="category">Showcase</h3>
+          </span>
+        </figure>
+      </div>
+      <div class="column-xs-12 column-md-4">
+        <figure class="img-container">
+          <img src="image/pastry-chef-preparing-chocolate-cake_23-2148696200.jpg" alt="" />
+          <figcaption class="img-content">
+            <h2 class="title">Camera Film</h2>
+            <h3 class="category">Showcase</h3>
+          </figcaption>
+          <span class="img-content-hover">
+            <h2 class="title">Camera Film</h2>
+            <h3 class="category">Showcase</h3>
+          </span>
+        </figure>
+      </div>
+      <div class="column-xs-12 column-md-4">
+        <figure class="img-container">
+          <img src="image/mo-cua-hang-banh-ngot-can-bao-nhieu-von-01.jpg" alt="">
+          <figcaption class="img-content">
+            <h2 class="title">Coffee</h2>
+            <h3 class="category">Showcase</h3>
+          </figcaption>
+          <span class="img-content-hover">
+            <h2 class="title">style</h2>
+            <h3 class="category">Showcase</h3>
+          </span>
+        </figure>
+      </div>
+      <div class="column-xs-12 column-md-6">
+        <figure class="img-container">
+          <img src="image/homemade-delicious-blueberry-crumble-cake-with-frozen-blueberries-top-view_114579-10258.jpg" alt="" />
+          <figcaption class="img-content">
+            <h2 class="title">Phone</h2>
+            <h3 class="category">Showcase</h3>
+          </figcaption>
+          <span class="img-content-hover">
+            <h2 class="title">Cake</h2>
+            <h3 class="category">Showcase</h3>
+          </span>
+        </figure>
+      </div>
+      <div class="column-xs-12 column-md-6">
+        <figure class="img-container">
+          <img src="image/cheesecake-slice-with-raspberry-syrup-with-cup-berries-aside_114579-15302.jpg" alt="" />
+          <figcaption class="img-content">
+            <h2 class="title">Keyboard</h2>
+            <h3 class="category">Showcase</h3>
+          </figcaption>
+          <span class="img-content-hover">
+            <h2 class="title">Cake</h2>
+            <h3 class="category">Showcase</h3>
+          </span>
+        </figure>
+      </div>
+      <div class="column-xs-12">
+        <figure class="img-container">
+          <img src="image/chocolate-nut-cake-with-glass-tea_114579-15320.jpg" alt="" />
+          <figcaption class="img-content">
+            <h2 class="title">Wrist Watch</h2>
+            <h3 class="category">Showcase</h3>
+          </figcaption>
+          <span class="img-content-hover">
+            <h2 class="title">party</h2>
+            <h3 class="category">Showcase</h3>
+          </span>
+        </figure>
+      </div>
     </div>
   </div>
-  <!--		<div class="clearfix"> </div>--> 
-</div>
-<div class="khung">
-	
-	
-<div class="formbox">
-  <h1>Đăng ký du lịch cùng mình nhé</h1>
-  <p class="byline"> </p>
-  <form >
-    <table cellpadding="2" cellspacing="2px">
-      <tr>
-        <td class="right">Họ và tên:</td>
-        <td class="left"><input type="text" id="hoten" value="Tu My Nhung" /></td>
-      </tr>
-      <tr>
-        <td class="right">Giới tính:</td>
-        <td class="left"><input type="checkbox" id="gtinh" />
-          <label
-					for="gtinh">Nam</label></td>
-      </tr>
-      <tr>
-        <td class="right">Ngày sinh:</td>
-        <td class="left"><input type="text" id="nsinh" /></td>
-      </tr>
-      <tr>
-        <td class="right">Điện thoại:</td>
-        <td class="left"><input type="text" id="dthoai" value="08 385 1056" /></td>
-      </tr>
-    </table>
-  </form>
-</div>
-	
-	<div class="footer">
-		<div class="copy_right">
-		 <a href="#">Tu My Nhung</a>
+</section>
+		
+<!--		mẫu form-->
+		<div class="row">
+			<div class="col-lg-6">
+				<h2>Mua hàng</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Loại bánh:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+  <input type="submit" value="Mua hàng">
+</form> 
 			
-	
-	<div id="mangxh">
-		<img src="hinh anh/tải xuống.png" alt="">
-		<img src="hinh anh/tải xuống (1).png" alt="">
-		<img src="hinh anh/255-2553733_google-logo-download-google-logo-transparent-background.png" alt="">
+			
+			
+			</div>
+			<div class="col-lg-6">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7838.863372875089!2d106.68937318518067!3d10.778211785072306!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf3b608debb5af986!2sArena%20Multimedia!5e0!3m2!1sen!2sus!4v1602571001520!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			
+			
+			</div>
+		
+		
+		
 		</div>
-	</div>
-	
-	
-	
-	
-	</div>
-<div class="container">
-	
-  <div class="cloud"></div>
-</div>
-<div class="cloud"> <img src="hinh anh/7b344efb846a36f9ed32fbb83d5d59ed-plane-ascending-by-vexels copy.png" alt=""> </div>
+			 
+		
+		
+		
+		
+		
+		
+		
+	  </div>
+		  
+		  
+		  
+      
+		
+		
+	  
 
+    
 
-	</div>
-	</div>
-<!--	footer-->
-	
-	
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
-<script>
-  AOS.init();
-</script>
+    <!-- Call to Action Section -->
+    <div class="row mb-4">
+      <div class="col-md-8" id="ten03">
+        <p>HOTLINE: (077) 555 888 1516.</p>
+		  <p>Địa chỉ: 214 Nguyễn Đình Chiểu, phường 6, quận 3 Tphcm.</p>
+      </div>
+      <div class="col-md-4">
+        <a class="btn btn-lg btn-secondary btn-block" href="#">Trang chủ</a>
+      </div>
+    </div>
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+		<a href="#" class="fa fa-facebook"></a>
+		<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+      <p class="m-0 text-center text-white"> &copy; Nhà của Bánh</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!--	scrip bootstrap-->
+	<script  src="js/script.js"></script>
+
 </body>
+
 </html>
